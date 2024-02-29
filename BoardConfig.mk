@@ -14,6 +14,9 @@ BUILD_BROKEN_DUP_RULES := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
+# Camera - Miui
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 USE_DEVICE_SPECIFIC_CAMERA := true
