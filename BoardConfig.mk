@@ -14,14 +14,17 @@ BUILD_BROKEN_DUP_RULES := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
-# Camera - Miui
-TARGET_CAMERA_PACKAGE_NAME := com.android.camera
-
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
+
+# Camera - Miui
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+
+# Camera - HIDL overrideFormat
+TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT = true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
