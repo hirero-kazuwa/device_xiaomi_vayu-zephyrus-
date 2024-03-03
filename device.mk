@@ -31,9 +31,21 @@ PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor
 
 # Overlays
+PRODUCT_PACKAGES += \
+   CarrierConfigOverlayVayu \
+   DialerOverlayVayu \
+   FrameworksResOverlayVayu \
+   NotchBarKillerVayu \
+   SettingsOverlayVayu \
+   SettingsProviderOverlayVayu \
+   SystemUIOverlayVayu \
+   TelephonyOverlayVayu \
+   TetheringConfigOverlayVayu \
+   WifiOverlayVayu
+
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/rro_overlays
 
 # QDCM
 PRODUCT_COPY_FILES += \
