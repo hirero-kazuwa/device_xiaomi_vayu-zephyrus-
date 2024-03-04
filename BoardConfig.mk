@@ -58,8 +58,5 @@ endif
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Sepolicy
-include vendor/xiaomi/vayu-miuicamera/products/board.mk
-
 # Inherit from the proprietary version
 include vendor/xiaomi/vayu/BoardConfigVendor.mk

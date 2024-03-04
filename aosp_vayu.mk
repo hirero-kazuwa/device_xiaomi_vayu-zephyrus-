@@ -22,9 +22,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-# Camera
-$(call inherit-product-if-exists, vendor/xiaomi/vayu-miuicamera/products/miuicamera.mk)
-
 # FireDroid Maintainer Flags
 FIREDROID_MAINTAINER := ぞうしろかずわ
 CUSTOM_BUILD_TYPE := OFFICIAL
