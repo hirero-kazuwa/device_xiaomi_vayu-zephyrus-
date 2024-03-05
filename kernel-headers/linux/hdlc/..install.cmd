@@ -1,0 +1,1 @@
+cmd_/home/hirero/kernel-headers/include/linux/hdlc/.install := /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/linux/hdlc ./include/uapi/linux/hdlc ioctl.h; /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/linux/hdlc ./include/generated/uapi/linux/hdlc ; touch /home/hirero/kernel-headers/include/linux/hdlc/.install

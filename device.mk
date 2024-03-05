@@ -58,5 +58,8 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Headers
+PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/vayu/kernel-headers
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)

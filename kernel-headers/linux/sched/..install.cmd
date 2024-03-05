@@ -1,0 +1,1 @@
+cmd_/home/hirero/kernel-headers/include/linux/sched/.install := /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/linux/sched ./include/uapi/linux/sched types.h; /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/linux/sched ./include/generated/uapi/linux/sched ; touch /home/hirero/kernel-headers/include/linux/sched/.install
