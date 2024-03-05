@@ -1,1 +1,0 @@
-cmd_/home/hirero/kernel-headers/include/linux/spi/.install := /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/linux/spi ./include/uapi/linux/spi spidev.h; /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/linux/spi ./include/generated/uapi/linux/spi ; touch /home/hirero/kernel-headers/include/linux/spi/.install

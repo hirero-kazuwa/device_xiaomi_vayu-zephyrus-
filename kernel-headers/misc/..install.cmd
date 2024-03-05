@@ -1,1 +1,0 @@
-cmd_/home/hirero/kernel-headers/include/misc/.install := /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/misc ./include/uapi/misc cxl.h; /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/misc ./include/generated/uapi/misc ; touch /home/hirero/kernel-headers/include/misc/.install

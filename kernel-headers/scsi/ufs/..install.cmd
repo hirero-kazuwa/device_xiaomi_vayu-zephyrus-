@@ -1,1 +1,0 @@
-cmd_/home/hirero/kernel-headers/include/scsi/ufs/.install := /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/scsi/ufs ./include/uapi/scsi/ufs ioctl.h ufs.h; /bin/bash scripts/headers_install.sh /home/hirero/kernel-headers/include/scsi/ufs ./include/generated/uapi/scsi/ufs ; touch /home/hirero/kernel-headers/include/scsi/ufs/.install
